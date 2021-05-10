@@ -4,21 +4,27 @@
 }
 #main {
     background-color: #f0f0f0;
-    padding: 510%;
+    padding: 5%;
     padding: 10px;
     border-radius: 10px;
     
 }
 
+blockquote {
+    font-style: italic;
+}
+
 #img-caption{
     font-style: oblique;
+    
 }
 
 img{
-    width: 85%;
+    width: 80%;
     height: auto;
     display: block;
     border-radius: 10px;
+  
 }
 
 #image{
@@ -28,7 +34,7 @@ img{
 
 #tribute-info {
     margin: 50px auto 10px auto;
-    width: 55vw;;
+    width: 55vw;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -38,6 +44,10 @@ img{
     text-align: center;
     display: block;
 }
+h2 {
+    font-size: 2rem;
+}
+
 
 li {
     margin: 16px 0;
@@ -45,9 +55,34 @@ li {
 
 a {
     text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 footer {
     text-align: center;
     margin: 20px auto 20px auto;
+}
+
+
+/*RESPONSIVIDADE */
+
+@media (max-width: 600px)
+{
+    #tribute-info {
+        width: 75vw;
+    }
+
+
+    blockquote {
+        font-size: 1.4rem;
+    }
+    img{
+        width: 85vw;
+    }
+    figcaption{
+        font-size: 1rem;
+        margin-top: 10px;
+        padding: 0px 5%;
+    }
 }
