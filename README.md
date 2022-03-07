@@ -1,9 +1,6 @@
-# Tribute-Page - Raquel de Queiroz
+# Tribute Page - Raquel de Queiroz
 
-Este projeto foi um desafio da FreeCodeCamp.
-Com ele quis homenagear Raquel de Queiroz, escrito natural da mesma cidade que eu.
+* The page contains a test script in the upper left corner.
 
-<img src="./imagem-projeto.png" alt="Imagem projeto">
+[<img src="./imagem-projeto.png" alt="Imagem projeto">](https://paulpessoa.github.io/tribute-page)
 
-
-A página contem um script de testes no canto superior esquerdo.
